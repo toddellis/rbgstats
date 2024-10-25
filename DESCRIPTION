@@ -1,0 +1,30 @@
+Package: rbgstats
+Type: Package
+Title: Simple Extraction Tools for BGStats Data
+Version: 0.1.0
+Authors@R: person(given = "Todd",
+                  family = "Ellis",
+                  role = c("aut", "cre"),
+                  email = "toddellis.wa@gmail.com",
+                  comment = c(ORCID = "0000-0002-4410-8676"))
+Maintainer: toots <toddellis.wa@gmail.com>
+Description: &c.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+LazyData: true
+Imports:
+    cowplot,
+    dplyr,
+    ggplot2,
+    glue,
+    lubridate,
+    scales,
+    stringr,
+    tibble,
+    rjson,
+    utils
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
